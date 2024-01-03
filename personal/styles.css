@@ -1,0 +1,30 @@
+body {
+  background-color: #bdb8b8;
+  /* color: white; */
+}
+
+header {
+  width: 25%;
+  float: left;
+}
+
+nav {
+  width: 70%;
+  float: right;
+  /* margin: 5em 3em 0 0; */
+}
+
+main {
+  /* Later check changing this to left */
+  clear: right;
+}
+
+/* Text Area Styles  */
+/* 
+textarea {
+margin-top: 10px;
+height: 100px;
+width: 95%;
+}
+*/
+/* ver mas alla de lo que la gente necesita */

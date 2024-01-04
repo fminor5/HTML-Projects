@@ -1,13 +1,13 @@
 /* CSS reset */
 
 body,
+div,
 header,
 nav,
 main,
 section,
 footer,
 h1,
-div,
 img {
   margin: 0;
   padding: 0;

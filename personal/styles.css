@@ -1,22 +1,53 @@
+@charset "utf-8";
+
+/* Style rules for body and images */
 body {
   background-color: #bdb8b8;
   /* color: white; */
+  /* np p119 */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Style rule for header */
 header {
   width: 25%;
   float: left;
 }
 
+/* Styles for navigation area*/
 nav {
   width: 70%;
   float: right;
   /* margin: 5em 3em 0 0; */
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.2em;
+  font-family: Verdana, Arial, sans-serif;
+  font-weight: bold;
+}
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 1em 1.5em;
+  text-decoration: none;
+}
+
+/* Styles for main area */
 main {
   /* Later check changing this to left */
-  clear: right;
+  clear: left;
+  padding: 2%;
+  font-size: 1.5em;
 }
 
 /* Text Area Styles  */
@@ -28,3 +59,16 @@ width: 95%;
 }
 */
 /* ver mas alla de lo que la gente necesita */
+
+/* Styles for footer content */
+footer p {
+  font-size: 1em;
+  text-align: center;
+  padding: 0 1em;
+  /* text-decoration: none; */
+}
+
+/* Elements styles */
+h1 {
+  font-size: 2em;
+}

@@ -25,6 +25,7 @@ nav ul {
   list-style-type: none;
   margin: 0;
   text-align: right;
+  line-height: 2em;
 }
 
 nav li {
@@ -32,6 +33,7 @@ nav li {
   font-size: 1.2em;
   font-family: Verdana, Arial, sans-serif;
   font-weight: bold;
+  letter-spacing: 0.1em;
 }
 
 nav li a {
@@ -42,33 +44,75 @@ nav li a {
   text-decoration: none;
 }
 
-/* Styles for main area */
-main {
+/* Styles for main, section, and footer areas */
+main,
+div,
+section,
+footer {
   /* Later check changing this to left */
   clear: left;
   padding: 2%;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
-/* Text Area Styles  */
-/* 
-textarea {
-margin-top: 10px;
-height: 100px;
-width: 95%;
-}
-*/
-/* ver mas alla de lo que la gente necesita */
+/* Styles for the div area */
+/* div {
+  clear: right;
+} */
 
 /* Styles for footer content */
 footer p {
   font-size: 1em;
-  text-align: center;
   padding: 0 1em;
-  /* text-decoration: none; */
+  font: normal Quicksand, Verdana, Geneva;
+  text-align: center;
+}
+
+footer p a {
+  text-decoration: none;
+  color: black;
 }
 
 /* Elements styles */
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
+}
+
+/* Styles for the main and div section */
+div#parent {
+  display: flex;
+  width: 100%;
+}
+
+main#intro {
+  width: 50%;
+  margin: 100px 0;
+  padding: 100px 0;
+}
+
+div#image {
+  width: 50%;
+  margin: 100px 0;
+  padding: 100px 0;
+}
+
+/* Styles for the stacks section */
+section#stacks {
+  width: 100%;
+  margin: 100px 0;
+  padding: 100px 0;
+}
+
+/* Styles for the projects section */
+section#projects {
+  width: 100%;
+  margin: 100px 0;
+  padding: 100px 0;
+}
+
+/* Styles for the contact section */
+section#contact {
+  width: 100%;
+  margin: 100px 0;
+  padding: 100px 0;
 }

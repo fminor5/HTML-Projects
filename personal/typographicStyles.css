@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/* Style rules for body and images */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav li {
+  font-size: 1.2em;
+  font-family: Verdana, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+nav li a {
+  color: black;
+  text-align: center;
+  padding: 1em 1.5em;
+  text-decoration: none;
+}
+
+/* Styles for main, section, and footer areas */
+main,
+div,
+section,
+footer {
+  font-size: 1.2em;
+}
+
+/* Styles for footer content */
+footer p {
+  font-size: 1em;
+  padding: 0 1em;
+  font: normal Quicksand, Verdana, Geneva;
+  text-align: center;
+}
+
+footer p a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Elements styles */
+h1 {
+  font-family: "Roboto Slab";
+  font-size: 1.5em;
+  margin: 30px auto;
+}
+
+h1#name {
+  font-family: "Frnacois One";
+}

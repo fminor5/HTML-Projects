@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="reset2.css" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="typographicStyles.css" />
+    <link rel="stylesheet" href="forms.css" />
     <title>Porfolio | fminor</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,24 +17,33 @@
   </head>
   <body>
     <div id="container">
-      <header>
-        <!-- Use the header area for the website logo -->
-        <h1>Logo</h1>
-      </header>
-      <nav>
-        <!-- Use the nav area to add hyperlinks to other pages within the website -->
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="">Resume</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-      </nav>
+      <div id="top">
+        <header>
+          <!-- Use the header area for the website logo -->
+          <img
+            src="images/g1.png"
+            alt="fminor5 logo"
+            height="125"
+            width="150"
+          />
+        </header>
+        <nav>
+          <!-- Use the nav area to add hyperlinks to other pages within the website -->
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="">Resume</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
       <div id="parent">
         <main id="intro">
           <!-- Use the section area to add content withing the website -->
           <h1>Hi my name is</h1>
           <h1 id="name">Name</h1>
-          <p>
+          <p id="introMessage">
             Hello! I am Fernando, a dedicated technology enthusiast. I am
             starting a new journey and would like to have the opportunity to
             extend my early knowledge into something awesome.
@@ -129,21 +139,46 @@
       </section>
       <section id="projects">
         <h1>Projects</h1>
-        <p>Comming soon!</p>
+        <p id="comming">Comming soon!</p>
       </section>
       <section id="contact">
         <form id="form">
           <!-- Starting the form -->
           <fieldset>
             <h1>Contact Me!</h1>
-            <p>I am open to opportunities.</p>
-            <label for="name">Your Name</label>
-            <input name="custName" id="name" type="text" />
-            <label for="mail">Your Email</label>
-            <input name="custEmail" id="mail" type="email" />
-            <label for="message">Message</label>
-            <textarea name="custMessage" id="message"></textarea>
-            <input value="Submit" type="submit" id="submit" />
+            <p id="parContact">I am open to opportunities.</p>
+            <div class="formRow">
+              <label for="name">Your Name</label>
+              <input
+                name="custName"
+                id="name"
+                type="text"
+                placeholder=" first and last name"
+                required
+              />
+            </div>
+            <div class="formRow">
+              <label for="mail">Your Email</label>
+              <input
+                name="custEmail"
+                id="mail"
+                type="email"
+                placeholder=" Your email address"
+                required
+              />
+            </div>
+            <div class="formRow">
+              <label for="message">Message</label>
+              <textarea
+                name="custMessage"
+                id="message"
+                placeholder=" Your message"
+                required
+              ></textarea>
+            </div>
+            <div id="button">
+              <input value="Submit Message" type="submit" id="submit" />
+            </div>
           </fieldset>
         </form>
       </section>

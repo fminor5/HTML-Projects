@@ -6,7 +6,7 @@ body {
 }
 
 nav li {
-  font-size: 1.2em;
+  font-size: 1em;
   font-family: Verdana, Arial, sans-serif;
   font-weight: bold;
   letter-spacing: 0.1em;
@@ -30,7 +30,7 @@ footer {
 /* Styles for footer content */
 footer p {
   font-size: 1em;
-  padding: 0 1em;
+  padding: 1em 1em;
   font: normal Quicksand, Verdana, Geneva;
   text-align: center;
 }
@@ -43,10 +43,20 @@ footer p a {
 /* Elements styles */
 h1 {
   font-family: "Roboto Slab";
-  font-size: 1.5em;
   margin: 30px auto;
 }
 
 h1#name {
   font-family: "Frnacois One";
+  font-size: 1.5em;
+}
+
+p#introMessage {
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+p#parContact {
+  letter-spacing: 0.1em;
+  padding: 20px auto;
 }

@@ -6,17 +6,22 @@ body {
   width: 100%;
 }
 
+div#container {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Style rule for header */
 header {
   width: 25%;
   float: left;
+  margin-left: 100px;
 }
 
 /* Styles for navigation area*/
 nav {
-  width: 70%;
+  width: 60%;
   float: right;
-  /* margin: 5em 3em 0 0; */
 }
 
 nav ul {
@@ -47,7 +52,9 @@ footer {
 /* Styles for the main and div section */
 div#parent {
   display: flex;
-  width: 100%;
+  width: 60%;
+  margin: 100px auto;
+  padding: 100px auto;
 }
 
 main#intro {
@@ -63,11 +70,11 @@ div#image {
 }
 
 /* Styles for the stacks section */
-/* section#stacks {
-  width: 100%;
-  margin: 100px auto;
-  padding: 100px auto;
-} */
+section#stackSection {
+  width: 60%;
+  margin: 50px auto;
+  padding: 50px auto;
+}
 
 /* Positioning the list elements horizontally for the stack section */
 /* Needs more work in the next sessions */
@@ -77,20 +84,25 @@ div#image {
 section#stackSection > ul > li {
   display: block;
   float: left;
-  padding: 100px 60px;
+  padding: 100px 10px;
   margin: 100px auto;
 }
 
 /* Styles for the projects section */
 section#projects {
-  width: 100%;
+  width: 60%;
   margin: 100px auto;
   padding: 100px auto;
 }
 
+p#comming {
+  text-align: center;
+  padding-top: 75pxcd;
+}
+
 /* Styles for the contact section */
 section#contact {
-  width: 100%;
+  width: 60%;
   margin: 100px auto;
   padding: 100px auto;
 }
